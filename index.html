@@ -18,12 +18,17 @@
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
     <div id="app">
+        <div class="container">
 
-        <h1> {{ title }} </h1>
+            <h1 :class="classTitle"> {{ title }} </h1>
 
-        <img :src="url" alt="#">
+            <div id="image-container" :class="classImgCont">
+                <img :class="classImg" :src="url" alt="#">
+            </div>
 
+        </div>
     </div>
+
 
 
 
