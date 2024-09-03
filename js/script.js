@@ -5,7 +5,7 @@ createApp({
     data() {
         return {
             title: 'Il mio primo progetto con Vue',
-            /* url: '' */
+            url: 'imgs/code.jpg'
         }
     }
 }).mount('#app')
